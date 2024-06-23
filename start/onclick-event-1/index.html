@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body">
+  
+
+<div id="main">
+    <div id="one">Click to change background-color to "Red".</div>
+    <div id="two" class="two">Click to change background-color to "Light Pink".</div>
+    <div id="three" class="three">Click to change background-color to "Black".</div>
+    <div id="four" class="four">Click to change background-color to "Aqua".</div>
+    <div id="five" class="five">Click to change background-color to "Greenyellow.</div>
+</div>
+
+<script>
+
+document.getElementById("one").addEventListener("click",function(){
+document.getElementById("main").style.background='rgb(232, 45, 45)';
+alert("Background-color changing to Red :)")
+});
+
+document.getElementById("two").addEventListener("click",function(){
+document.getElementById("main").style.background='rgb(241, 145, 145)';
+alert("Background-color changing to Light-Pink :)")
+});
+
+document.getElementById("three").addEventListener("click",function(){
+document.getElementById("main").style.background='black';
+alert("Background-color changing to Black :)")
+});
+
+document.getElementById("four").addEventListener("click",function(){
+document.getElementById("main").style.background='aqua';
+alert("Background-color changing to Aqua :)")
+});
+
+document.getElementById("five").addEventListener("click",function(){
+document.getElementById("main").style.background='Greenyellow';
+alert("Background-color changing to Greenyellow :)")
+});
+
+</script>
+
+
+</body>
+</html>
